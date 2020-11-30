@@ -1,13 +1,14 @@
 body {
     text-align: center;
-    margin: 0px;
-    padding: 0px;
-
-    /*FUENTES*/
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -moz-osx-font-smoothing: antialiased;
+}
+
+.homepic {
+    width: 100%;
+    height: auto;
 }
 
 #header {
@@ -15,11 +16,15 @@ body {
     width: 100%;
     background: white;
     border-bottom: 1px solid #ccc;
-    border-top: 5px solid #09a330;
 }
 
 .center{
     width: 75%;
+    margin: 0px auto;
+}
+
+.about{
+    width: 50px;
     margin: 0px auto;
 }
 
@@ -101,7 +106,7 @@ body {
 
 
 #menu a:hover, #menu .active {
-    color: #056d1f;
+    color: darkcyan;
 }
 
 #slider{
