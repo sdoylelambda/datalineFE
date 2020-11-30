@@ -1,34 +1,24 @@
 <template>
   <div id="app">
-    <Homepage msg="Welcome to DATALINE SYSTEMS!" />
+    <NavbarComponent />
+    <router-view></router-view>
+    <FooterComponent />
   </div>
 </template>
 
-<script src="/path/to/vue.js"></script>
-<script src="/path/to/vue-router.js"></script>
-
 <script>
-import Homepage from "./components/Homepage.vue";
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-
-Vue.use(VueRouter)
+import NavbarComponent from "./components/shared/NavbarComponent.vue";
+import FooterComponent from "./components/shared/FooterComponent.vue";
 
 export default {
   name: "App",
   components: {
-    Homepage
-  }
+    NavbarComponent,
+    FooterComponent,
+  },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import "./assets/css/styles.css";
 </style>
