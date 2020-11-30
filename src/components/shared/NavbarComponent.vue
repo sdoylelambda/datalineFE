@@ -4,10 +4,12 @@
       <!-- LOGO -->
       <div id="logo">
         <img src="../../assets/logo.png" class="app-logo" alt="Logotipo" />
-             <div id="logolink">
-        <router-link to="/" active-class="active">DATALINE SYSTEMS</router-link>
-        </div>
-      </div>
+          <div id="menu">
+            <div className="navdiv">
+              <router-link to="/" active-class="active">DATALINE SYSTEMS</router-link>
+            </div>
+         </div>
+       </div>
 
       <!-- MENU -->
       <nav id="menu">
@@ -46,4 +48,12 @@ export default {
 </script>
 
 <style>
+.center {
+ text-decoration: none;
+}
+/* 
+.navdiv {
+  text-decoration: none;
+  background-color: red;
+  } */
 </style>

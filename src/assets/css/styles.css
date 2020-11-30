@@ -6,12 +6,16 @@ body {
     -moz-osx-font-smoothing: antialiased;
 }
 
+.homepic {
+    width: 100%;
+    height: auto;
+}
+
 #header {
     height: 120px;
     width: 100%;
     background: white;
     border-bottom: 1px solid #ccc;
-    border-top: 5px solid #09a330;
 }
 
 .center{
@@ -102,7 +106,7 @@ body {
 
 
 #menu a:hover, #menu .active {
-    color: #056d1f;
+    color: darkcyan;
 }
 
 #slider{

@@ -1,12 +1,16 @@
 <template>
   <div class="home">
-    <h1>DATALINE SYSTEMS</h1>
+    <img src="../../assets/images/homePic1.png" class="homepic" alt="Logotipo" />
   </div>
 </template>
 
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+#home {
+ background-image: './bac';
+ background-color: #cccccc;
+}
 h3 {
   margin: 40px 0 0;
 }
