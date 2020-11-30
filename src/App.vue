@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Homepage msg="Welcome to DATALINE SYSTEMS!" />
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 <script src="/path/to/vue-router.js"></script>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Homepage from "./components/Homepage.vue";
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
@@ -17,7 +17,7 @@ Vue.use(VueRouter)
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Homepage
   }
 };
 </script>

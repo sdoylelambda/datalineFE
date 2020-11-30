@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="main">
     <h1>DATALINE SYSTEMS</h1>
  
    
@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Homepage",
   props: {
     msg: String
   }
