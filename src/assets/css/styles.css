@@ -1,9 +1,5 @@
 body {
     text-align: center;
-    margin: 0px;
-    padding: 0px;
-
-    /*FUENTES*/
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -20,6 +16,11 @@ body {
 
 .center{
     width: 75%;
+    margin: 0px auto;
+}
+
+.about{
+    width: 50px;
     margin: 0px auto;
 }
 

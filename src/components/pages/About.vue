@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="center">
     <h1>ABOUT US</h1>
     <h4>Dataline Systems, LLC is a privately held Florida corporation whose strength is providing business process outsourcing and financial services operations support in a timely, accurate and cost-efficient manner.  The relationships we have fostered with leading financial institutions and within our Team are key to what makes Dataline who we are.
 
