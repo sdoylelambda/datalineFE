@@ -32,7 +32,7 @@ Vue.use(Vuelidate)
 Vue.use(VueMoment, { moment })
 
 const routes = [
-  { path: '/home', name: 'home', component: Homepage },
+  { path: '/', name: 'home', component: Homepage },
   { path: '/about', name: 'about', component: About },
   { path: '/services', name: 'services', component: Services },
   { path: '/caseStudies', name: 'caseStudies', component: CaseStudies },

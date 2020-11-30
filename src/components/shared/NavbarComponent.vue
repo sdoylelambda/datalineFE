@@ -5,8 +5,8 @@
       <div id="logo">
         <img src="../../assets/logo.png" class="app-logo" alt="Logotipo" />
       
-            <router-link to="/home" active-class="active">DATALINE SYSTEMS</router-link>
        
+            <router-link to="/" active-class="active">DATALINE SYSTEMS</router-link>
       </div>
 
       <!-- MENU -->
