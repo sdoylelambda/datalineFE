@@ -4,9 +4,9 @@
       <!-- LOGO -->
       <div id="logo">
         <img src="../../assets/logo.png" class="app-logo" alt="Logotipo" />
-      
-       
-            <router-link to="/" active-class="active">DATALINE SYSTEMS</router-link>
+             <div id="logolink">
+        <router-link to="/" active-class="active">DATALINE SYSTEMS</router-link>
+        </div>
       </div>
 
       <!-- MENU -->

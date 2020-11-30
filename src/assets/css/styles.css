@@ -28,6 +28,11 @@ body {
     float:none;
 }
 
+/* FIX NAV LINK  text-decoration: none; */
+#logolink {
+    text-decoration: none;
+}
+
 #logo {
     width: 30%;
     font-size: 30px;
