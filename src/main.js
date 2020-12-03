@@ -3,16 +3,9 @@ import App from './App.vue'
 // External
 import VueRouter from 'vue-router'
 import Vuelidate from 'vuelidate'
-import VueMoment from 'vue-moment' // Date format
-import moment from 'moment' // Spanish config for moment ***
-import 'moment/locale/es' // Spanish config for moment
-
-// Routes
-// import HomeComponent from './components/pages/HomeComponent.vue';
-// import HelloWorld from './components/pages/HelloWorld.vue';
-// import BlogComponent from './components/pages/BlogComponent.vue';
-// import FormComponent from './components/pages/FormComponent.vue';
-// import PageComponent from './components/pages/PageComponent.vue'
+import VueMoment from 'vue-moment'
+import moment from 'moment'
+import 'moment/locale/es'
 import ErrorComponent from './components/pages/ErrorComponent.vue'
 import Homepage from './components/pages/Homepage'
 import About from './components/pages/About'
